@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background-color: #1d1e23;
+  --primary-buttom: linear-gradient(
+    to top right,
+    rgba(47, 203, 110, 1),
+    rgba(255, 248, 83, 1)
+  );
+  --font-color: #C9C9C9;
+}
+.sks-btn{
+  border: none;
+  outline: none;
+  background: var(--primary-buttom);
+  color: black;
+  border-radius: 20px;
+  /* width: 110px; */
+  padding: 8px 20px;
+  
+}
+.sks-btn:hover{
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transform: scale(1.03);
+}
+a{
+  text-decoration: none;
+  color: whitesmoke !important;
+}
+
+
+
+
+
+
+
+
+body{
+  background: var(--background-color);
+}
+
+.navbar {
+  background-color: transparent;
+  padding: 8px 25px;
+  height: 15vh;
+}
+.nav-item{
+  margin-right:30px;
+}
+.container-fluid .hero-row{
+  height: 85vh;
+}
+.container-fluid .hero-right img{
+    width: 100%;
+}
+.container-fluid .hero-left{
+  z-index: 1;
+}
+.container-fluid .hero-left h1{
+    background-image: var(--primary-buttom);
+    background-clip: text;
+    color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 9vmin;
+    margin-left: 20px;
+}
+.container-fluid .hero-left h3{
+  color: var(--font-color);
+  margin-left: 20px;
+  font-size: 5vmin;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.container-fluid .hero-left button{
+  margin-left: 20px;
+  font-size: 3vmin;
+}
+.vector-01{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.vector-01 svg{
+  width: 100%;
+  height: 100%;
+}
