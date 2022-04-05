@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --secondery-color: rgba(47, 203, 110, 1);
+  --background-color: #1d1e23;
+  --primary-buttom: linear-gradient(
+    to top right,
+    rgba(47, 203, 110, 1),
+    rgba(255, 248, 83, 1)
+  );
+  --font-color: #C9C9C9;
+}
+.sks-btn{
+  border: none;
+  outline: none;
+  background: var(--primary-buttom);
+  color: black;
+  border-radius: 20px;
+  /* width: 110px; */
+  padding: 8px 20px;
+}
+.sks-btn:hover{
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transform: scale(1.03);
+}
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+a{
+  text-decoration: none;
+  transition: all 400ms ease-in-out;
+}
+a:hover{
+  color: var(--primary-buttom);
+}
+li{
+  list-style: none;
+}
+body{
+  background: var(--background-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* =========== GENERAL STYLE ========== */
+
+h1,h2,h3,h4,h5{
+  font-weight: 700;
+}
+h1{
+  background-image: var(--primary-buttom);
+  background-clip: text;
+  color: transparent;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 9vmin;
+  margin-left: 20px;
+}
+h1::selection{
+  background-color: #13131300;
+  color: #c9c9c900;
+}
+h3::selection{
+  background-color: transparent;
+  
+}
+h3{
+  color: var(--font-color);
+  margin-left: 20px;
+  font-size: 5vmin;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+img::selection{
+  background-color: #13131300;
+}
+button::selection{
+  background-color: transparent;
+}
+a::selection{
+  background-color: transparent;
+}

@@ -1,14 +1,15 @@
 import React from 'react'
-import '../App.css';
-import image from '../asset/hero-img.png';
-export default function Landing() {
+import './Landing.css';
+import image from '../../asset/hero-img.png';
+export default function Landing(props) {
   return (
-    <div>
+    <div id='home'>
       <div className="container-fluid">
           <div className="row hero-row">
               <div className="col-6 hero-left mx-auto my-auto col-lg-6 col-12">
-                    <h1>Saal Kather Sajaru</h1>
-                    <h3>Music Distribution</h3>
+                    <h1>{props.title}</h1>
+                    <h3>Music Distribution & Record Lebel</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, a tenetur? Aperiam sint quaerat, omnis ipsum voluptatum placeat tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae perferendis iure facilis quas, quia aliquid quam rem. Sed, minus explicabo!</p>
                     <button className="sks-btn" href="/">Get Sarted</button>
               </div>
               <div className="col-6 hero-right col-xl-6 col-12 p-0">

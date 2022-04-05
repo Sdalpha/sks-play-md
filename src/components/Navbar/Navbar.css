@@ -1,0 +1,14 @@
+
+.navbar {
+    background-color: transparent;
+    backdrop-filter: blur(11px);
+    padding: 8px 25px;
+    height: 10vh;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.nav-item{
+    margin-right:30px;
+}

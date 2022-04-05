@@ -1,0 +1,31 @@
+.ad-bg{
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.589);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    scroll-behavior: smooth;
+    transition: all 400 ease;
+}
+.ad-body{
+    width: 60%;
+}
+.ad-body img{
+    width: 100%;
+    object-fit: cover;
+}
+.ad-body button{
+    cursor: pointer;
+    position: fixed;
+    float: right;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 2rem;
+    padding: 0px 2rem;
+}

@@ -1,0 +1,74 @@
+#distributions{
+    height: 100vh;
+    width: 100%;
+}
+.secondRow{
+    /* border: 2px solid red; */
+    height: 30%;
+}
+.firstRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    /* border: 2px solid red; */
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo-container{
+    height: 10rem;
+    width: 100%;
+    background: linear-gradient(177.7deg, #C4C4C4 -258.66%, rgba(196, 196, 196, 0) 98.07%);
+    border-radius: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.upper{
+    text-align: center;
+}
+.upper img{
+    height: 7.5rem;
+}
+.right-text{
+    text-align: right;
+}
+.left-text{
+    text-align: left;
+}
+h1,h3{
+    margin: 0;
+}
+.store-row{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.store-row img{
+    height: 2.5rem;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+    
+}
+.logo-container .telecom{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.telecom img{
+    height: 4rem;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+    
+}
+.store-row img:hover,
+.telecom img:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: scale(1.2);
+    transition: all 400ms ease-in-out;
+}
