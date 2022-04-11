@@ -2,14 +2,17 @@ import React from "react";
 import "./Navbar.css"
 import { NavLink } from "react-router-dom";
 import logo from "../../asset/logo_main.png"
+import Navsm from "./Navsm";
 export default function Navbar() {
   return (
+    <>
     <div>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="#home">
-            <img src={logo} alt="" width="150" class="d-inline-block align-text-top"/>
+            <img src={logo} alt="" width={150} class="d-inline-block align-text-top"/>
           </a>
+          <span className="beta">Beta Version</span>
           <button
             className="navbar-toggler"
             type="button"
@@ -58,5 +61,7 @@ export default function Navbar() {
         </div>
       </nav>
     </div>
+    <Navsm/>
+    </>
   );
 }

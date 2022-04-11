@@ -14,8 +14,10 @@ import t1 from "../../asset/telicom/airtel.png"
 import t2 from "../../asset/telicom/bsnl.png"
 import t3 from "../../asset/telicom/jio.png"
 import t4 from "../../asset/telicom/vi.png"
+import Sectionb from "./Sectionb";
 function Distributions() {
   return (
+    <>
     <section id="distributions">
       <div className="container">
 
@@ -93,6 +95,10 @@ function Distributions() {
         </div>
       </div>
     </section>
+      <div className="container-flude">
+      <Sectionb/>
+      </div>
+    </>
   );
 }
 

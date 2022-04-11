@@ -6,11 +6,11 @@ function Popup() {
 
   const [action,setAction] = useState("");
 
-  window.onload = ()=> {
-      setTimeout(() => {
-        setAction("visible");
-      }, 3000);
-  }
+  // window.onload = ()=> {
+  //     setTimeout(() => {
+  //       setAction("visible");
+  //     }, 3000);
+  // }
   console.log(action);
   return (
     <div className='ad-bg' style={{visibility: action }}>

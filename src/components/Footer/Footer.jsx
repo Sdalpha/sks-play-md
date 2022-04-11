@@ -80,7 +80,7 @@ function Footer() {
                             </div>
                             <div className="subscribe-form">
                                 <form onSubmit={handleSubmit}>
-                                    <input type="text" placeholder="Email Address" value={mail} onChange={(e)=> setMail(e.target.value)}/>
+                                    <input type="email" placeholder="Email Address" value={mail} onChange={(e)=> setMail(e.target.value)}/>
                                     <button><MdSend/></button>
                                 </form>
                             </div>
