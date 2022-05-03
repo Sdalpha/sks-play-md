@@ -195,7 +195,7 @@ textarea:valid+label {
 
 .sks{
   padding-top: 12vh;
-  height: 70vh;
+  /* height: 70vh; */
   width: 100%;
   margin-bottom: 50px;
 }
@@ -221,17 +221,37 @@ textarea:valid+label {
   text-align: right;
 }
 .sks-right img{
-    height: 100%;
+    width: 100%;
+    height: auto;
     object-fit: contain;
 }
+@media (max-width: 600px){
+  .sks{
+    padding: 0;
+  }
+  .sks-left{
+    padding-top: 6rem;
+    width: 100%;
+    margin: 0;
+    padding: 5rem 2rem 2rem 2rem;
+    display: block;
+  }
+  .sks-left h1{
+    font-size: 2rem;
+    margin: 1rem 0rem 1rem 0rem;
+  }
+  .sks-left p{
+    width: 100%;
+    text-align: justify;
+  }
 
+}
 
 
 /* SKSplay ABOUT SECTON */
 
 
 .play-cont{
-  height: 100vh;
   width: 100%;
   background-image: url("../../asset/SKSbg.png");
   background-repeat: no-repeat;
@@ -283,7 +303,36 @@ textarea:valid+label {
   color: #1D1E23;
   margin: 15px;
 }
+@media (max-width: 600px){
+  .play-left img{
+    width: 100%;
+    height: auto;
+  }
+  .play-right{
+      width: 100%;
+      display: block;
+  }
+  .play-right p{
+    width: 100%;
+  }
+  .md-cont{
+    display: block;
+  }
+  .md-row{
+    width: 100%;
+    text-align: start;
+  }
+  .md-cont h1, .md-cont p{
+    margin: 0px;
+  }
+  .md-cont h1,.md-cont h2{
+    font-size: 1.7rem;
+  }
+  .md-cont p{
+    margin: 1rem 0rem 1rem 0rem;
+  }
 
+}
 /* TEAM ABOUT SECTON */
 
 .team-cont{
@@ -310,4 +359,19 @@ textarea:valid+label {
   text-align: center;
   margin-bottom: 50px;
   
+}
+.card{
+  width: 18rem;
+  align-items: center;
+}
+@media (max-width: 600px){
+  .team-members{
+    width: 100%;
+    display: block;
+  }
+  .card{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
 }

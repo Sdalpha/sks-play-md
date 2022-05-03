@@ -96,7 +96,7 @@ function About() {
           <h1>Our Team Members</h1>
         </div>
         <div className="row team-members">
-          <div className="col-lg-3 ">
+          <div className="col-lg-3">
             <Teamcard url={team[0]} name="Satyajit Dutta" desc="Director, Cinematographer, Screenplay Writer, Editor & Developer (Tech Support)"/>
           </div>
           <div className="col-lg-3 ">
@@ -193,3 +193,5 @@ function About() {
 }
 
 export default About;
+
+
