@@ -1,18 +1,18 @@
 #pricing{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10vh;
 }
 p{
     color: rgba(245, 245, 245, 0.699);
 }
 .pricing-container{
-    height: 100vh;
+    height: fit-content;
 }
 .pricing-title{
-    height: 20vh;
     text-align: center;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ p{
     text-transform: uppercase;
 }
 .card-row{
-    height: 70vh;
+    height:fit-content;
 }
 .card{
     background: linear-gradient(177.7deg, #C4C4C4 -258.66%, rgba(196, 196, 196, 0) 98.07%);
@@ -30,7 +30,22 @@ p{
     color: white;
     border-radius: 1.2rem;
     border: none;
+    font-size: 0.9rem;
 }
 .card-body{
     text-align: center;
+}
+.card-body img{
+    border-radius: 0.5rem;
+}
+.col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+.icon-c{
+    color: greenyellow;
+}
+.card-line{
+    margin: 0rem;
+    text-align: start;
 }

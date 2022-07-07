@@ -1,5 +1,70 @@
 #promotion{
-    height: 100vh;
     width: 100%;
-    background-color: rgb(56, 56, 56);
+}
+.head{
+    padding-top: 15vh;
+    background: linear-gradient(284.71deg, #A5E45E 4.75%, #4ECB71 70.9%);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(29, 29, 29);
+    text-transform: capitalize;
+}
+.head h2{
+    font-weight: 800;
+    font-style: normal;
+    font-size: 7vmin;
+}
+.head p{
+    width: 33.33%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.promo-body{
+    width: 100%;
+    padding: 0rem 4rem 0rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.promo-card{
+    width: 20%;
+    border-radius: 0.5rem;
+    background: linear-gradient(284.71deg, #A5E45E 4.75%, #4ECB71 70.9%);
+    padding: 0.5rem;
+    color: black;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.promo-icon{
+    font-size: 2rem;
+}
+.promo-tag{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 4rem 0rem 4rem;
+}
+.promo-tag p{
+    color: #2FCB6E;
+    width: 80%;
+}
+.promo-tag .left{
+    width: 50%;
+    
+}
+.promo-tag .left img{
+    width: 80%;
+    height: auto;
+}
+.promo-tag .right{
+    width: 50%;
+    
+}
+.promo-tag:nth-child(4) img{
+    width: 80%;
+    height: auto;
 }

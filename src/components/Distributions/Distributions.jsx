@@ -9,13 +9,22 @@ import r4 from "../../asset/logo/spoti.png"
 import r5 from "../../asset/logo/resso.png"
 import r6 from "../../asset/logo/savan.png"
 import r7 from "../../asset/logo/apple.png"
+import r8 from "../../asset/logo/tt.png"
+import r9 from "../../asset/logo/wink.png"
+import r10 from "../../asset/logo/ytm.png"
+import r11 from "../../asset/logo/soundcloud.png"
+import r12 from "../../asset/logo/pandora.png"
+import r13 from "../../asset/logo/napstar.png"
+import r14 from "../../asset/logo/audible.png"
 //telecoms logo
 import t1 from "../../asset/telicom/airtel.png"
 import t2 from "../../asset/telicom/bsnl.png"
 import t3 from "../../asset/telicom/jio.png"
 import t4 from "../../asset/telicom/vi.png"
+import Sectionb from "./Sectionb";
 function Distributions() {
   return (
+    <>
     <section id="distributions">
       <div className="container">
 
@@ -25,27 +34,27 @@ function Distributions() {
           
           <div className="col-lg-6 col-sm-12 left">
               <div className="upper my-2">
-                <img src={ap} alt="" />
+                <img data-aos="fade-right" src={ap} alt="" />
               </div>
               <div className="lower">
                 <div className="logo-container">
                 <ul className="store-row">
-                    <li><img src={r1} alt="" /></li>
-                    <li><img src={r2} alt="" /></li>
-                    <li><img src={r3} alt="" /></li>
-                    <li><img src={r4} alt="" /></li>
-                    <li><img src={r5} alt="" /></li>
-                    <li><img src={r6} alt="" /></li>
-                    <li><img src={r7} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r1} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r2} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r3} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r4} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r5} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r6} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r7} alt="" /></li>
                 </ul>
                 <ul className="store-row">
-                    <li><img src={r1} alt="" /></li>
-                    <li><img src={r2} alt="" /></li>
-                    <li><img src={r3} alt="" /></li>
-                    <li><img src={r4} alt="" /></li>
-                    <li><img src={r5} alt="" /></li>
-                    <li><img src={r6} alt="" /></li>
-                    <li><img src={r7} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r8} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r9} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r10} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r11} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r12} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r13} alt="" /></li>
+                    <li><img data-aos="zoom-in" src={r14} alt="" /></li>
                 </ul>
                 </div>
                 
@@ -80,10 +89,10 @@ function Distributions() {
 
             <div className="logo-container">
                  <ul className="telecom">
-                   <li><img src={t1} alt="" /></li>
-                   <li><img src={t2} alt="" /></li>
-                   <li><img src={t3} alt="" /></li>
-                   <li><img src={t4} alt="" /></li>
+                   <li><img data-aos="zoom-in" src={t1} alt="" /></li>
+                   <li><img data-aos="zoom-in" src={t2} alt="" /></li>
+                   <li><img data-aos="zoom-in" src={t3} alt="" /></li>
+                   <li><img data-aos="zoom-in" src={t4} alt="" /></li>
                  </ul>
             </div>
 
@@ -93,6 +102,10 @@ function Distributions() {
         </div>
       </div>
     </section>
+      <div className="container-flude">
+      <Sectionb/>
+      </div>
+    </>
   );
 }
 

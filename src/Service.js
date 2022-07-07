@@ -1,4 +1,4 @@
-import "./App.css";
+
 import Distributions from "./components/Distributions/Distributions";
 import Landing from "./components/Home/Landing";
 import Navbar from "./components/Navbar/Navbar";
@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./components/About/About";
 import Popup from "./components/ad/Popup";
 import SendDemo from "./components/SendDemo/SendDemo";
-function App() {
+function Service() {
   return (
     <>
       <Router>
@@ -30,4 +30,4 @@ function App() {
   );
 }
 
-export default App;
+export default Service;

@@ -1,0 +1,40 @@
+#sendDemo{
+    padding-top: 20vh;
+    margin-bottom: 10vh;
+    width: 100%;
+}
+.demo-title h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+#sendDemo label{
+    color: white;
+    border: 2px solid red;
+}
+.title-row{
+    height: fit-content;
+    width : 100%;
+}
+.demo-title{
+    height: fit-content;
+    text-align: center;
+}
+.demo-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.demo-form input,
+.demo-form textarea{
+    background: var(--background-color);
+    border: 1px solid var(--primary-color);
+}
+.demo-form .form-control{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 1.2rem;
+    border: 1px solid var(--primary-color);
+    color: white;
+}

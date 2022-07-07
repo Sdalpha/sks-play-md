@@ -1,19 +1,24 @@
 import React from 'react'
 import './Landing.css';
-import image from '../../asset/hero-img.png';
+import {Link} from "react-router-dom"
+import image from '../../asset/hero-img.png'
+import ad from "../../asset/ad/ad1.png"
 export default function Landing(props) {
   return (
     <div id='home'>
-      <div className="container-fluid">
+      <div className="container-fluid desktop-hero">
           <div className="row hero-row">
               <div className="col-6 hero-left mx-auto my-auto col-lg-6 col-12">
                     <h1>{props.title}</h1>
                     <h3>Music Distribution & Record Lebel</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, a tenetur? Aperiam sint quaerat, omnis ipsum voluptatum placeat tenetur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae perferendis iure facilis quas, quia aliquid quam rem. Sed, minus explicabo!</p>
-                    <button className="sks-btn" href="/">Get Sarted</button>
+                    <div className="my-4">
+                    <Link className="sks-btn home-btn mx-3" to="/pricing">Get Sarted</Link>
+                    <Link className="sks-btn-sec home-btn mx-3" to="/senddemo">Send Demo</Link>
+                    </div>
               </div>
-              <div className="col-6 hero-right col-xl-6 col-12 p-0">
-                            <img src={image} alt="hero right img-fluid" />
+              <div  className="col-6 hero-right col-xl-6 col-12 p-0">
+                            <img data-aos="fade-left" src={image} alt="hero right img-fluid" />
               </div>
           </div>
           <div className="vector-01">
@@ -29,6 +34,26 @@ export default function Landing(props) {
 
           </div>
       </div>
+          <div className="container-fluid sm-hero">
+                <div className="row sm-row-hero">
+                    <div className="col-sm-12 mobile-hero ">
+                        <h1>{props.title}</h1>
+                        <h3>Music Distribution</h3>
+                        <Link className="sks-btn home-btn my-2" to="/pricing">Get Sarted</Link>
+                        <img src={ad} alt="" />
+                    </div>
+                    <div className="col-sm-12  lower-hero">
+                    <hr />
+                        <div className="child">
+                            
+                        </div>
+                        <div className="child">
+
+                        </div>
+                       
+                    </div>
+                </div>
+          </div>
     </div>
   )
 }

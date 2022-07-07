@@ -1,6 +1,6 @@
 
-.navbar {
-    background-color: black;
+nav {
+    background-color: transparent;
     backdrop-filter: blur(11px);
     padding: 8px 25px;
     height: 10vh;
@@ -9,16 +9,12 @@
     width: 100%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
-.nav-item{
-    margin-right:30px;
+.navlinks{
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
 }
 
-.beta{
-  background-color: rgba(239,71,67,.15);
-  padding: 0px 4px;
-  border-radius: 7px;
-  color: rgb(239 71 67/1);
-}
 
 @media only screen and (min-width: 1080px){
     .mobile-nav{
